@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# UOChelpDesk
-
-=======
->>>>>>> d5080dfb9c85161a22302ce77ad3293781f39e3b
 <center>
 <img src="https://i.imgur.com/LqUtyGh.png">
 </center>
@@ -13,16 +8,10 @@
 
 |             | Name                         | Student ID Number | Github Handle |
 |-------------|------------------------------|-------------------|---------------|
-<<<<<<< HEAD
 | Team Leader | Yasith Samaradiwakara        | 19020742          | @yasithsam    |
 | Member 1    | Nethmi Rodrigo               | 19001462          | @nethmirodrigo|
 | Member 2    | Nisan Abeywickrama           | 19000032          | @lordreigns   |
 | Member 3    | Isuru harischandra           | 19020333          | @             |
-=======
-| Member 1    | Nishamal                     | 19001462          | @nethmirodrigo|
-| Member 2    | Lavinka                      | 19000032          | @lordreigns   |
-| Member 3    | Hiruni                       | 19020333          | @             |
->>>>>>> d5080dfb9c85161a22302ce77ad3293781f39e3b
 | Member 4    | Akila Maithripala            | 19020333          | @akilamaithri |     
 
 ## What we are building
