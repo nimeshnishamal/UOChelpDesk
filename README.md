@@ -8,10 +8,9 @@
 
 |             | Name                         | Student ID Number | Github Handle |
 |-------------|------------------------------|-------------------|---------------|
-| Team Leader | Yasith Samaradiwakara        | 19020742          | @yasithsam    |
-| Member 1    | Nethmi Rodrigo               | 19001462          | @nethmirodrigo|
-| Member 2    | Nisan Abeywickrama           | 19000032          | @lordreigns   |
-| Member 3    | Isuru harischandra           | 19020333          | @             |
+| Member 1    | Nishamal                     | 19001462          | @nethmirodrigo|
+| Member 2    | Lavinka                      | 19000032          | @lordreigns   |
+| Member 3    | Hiruni                       | 19020333          | @             |
 | Member 4    | Akila Maithripala            | 19020333          | @akilamaithri |     
 
 ## What we are building
