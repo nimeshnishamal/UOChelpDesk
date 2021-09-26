@@ -8,7 +8,7 @@
 
 |             | Name                         | Student ID Number | Github Handle |
 |-------------|------------------------------|-------------------|---------------|
-| Team Leader |   Nimesh                     |                   |               |
+| Team Leader |   Nimesh Nish                |                   |               |
 | Member 4    | Akila Maithripala            | 19020333          | @akilamaithri |     
 
 ## What we are building
