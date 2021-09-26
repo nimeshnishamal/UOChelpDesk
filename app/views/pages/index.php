@@ -1,3 +1,5 @@
+<?php require APPROOT . '/views/inc/header.php'; ?>
+
 <?php
 /* This is how you echo out database information on the screen
 foreach ($data['users'] as $user) {
@@ -7,3 +9,4 @@ foreach ($data['users'] as $user) {
 */
 ?>
 HOME PAGE
+<?php require APPROOT . '/views/inc/footer.php'; ?>
