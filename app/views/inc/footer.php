@@ -21,9 +21,11 @@
 
 				<div class="footer-links">
          
+
 					<a href="#drive"><img src="../public/img/icons/document.svg" width="25px" class="invert" style="margin-right: 20px"></a>
 
 					<a href="#github"><img src="../public/img/icons/github.svg" width="25px" class="invert"></a>
+
 				</div>
 
 			</div>

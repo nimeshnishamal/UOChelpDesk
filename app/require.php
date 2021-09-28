@@ -5,5 +5,9 @@
     require_once 'libraries/' . $className . '.php';
     });
 
+    spl_autoload_register(function($className){
+    require_once 'libraries/' . $className . '.php';
+    });
+
     //Instantiate core class
     $init = new Core();
