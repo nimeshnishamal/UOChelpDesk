@@ -1,17 +1,15 @@
 <center>
-<img src="https://i.imgur.com/EC40htp.png">
+<img src="https://i.imgur.com/LqUtyGh.png">
 </center>
 
 ## Team Declaration
 
 #### Team No - 08
 
-| Name                         | Student ID Number |
-|------------------------------|-------------------|
-| Nimesh Nishamal              | 19001462          |
-| Akila Maithripala            | 19000032          |
-| Lavinka Weerasekara          | 19020333          |
-| Hiruni Guruge                | 19020333          ||     
+|             | Name                         | Student ID Number | Github Handle |
+|-------------|------------------------------|-------------------|---------------|
+| Team Leader |                              |                   |               |
+| Member 4    | Akila Maithripala            | 19020333          | @akilamaithri |     
 
 ## What we are building
  

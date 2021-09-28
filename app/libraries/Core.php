@@ -5,7 +5,7 @@
     protected $param = [];
 
     public function __construct(){
-      //print_r($this->getUrl());
+      // print_r($this->getUrl());
 
       $url = $this->getUrl();
 
@@ -25,8 +25,7 @@
         }
       }
 
-
-      $this->params = $url ? array_values($url) : [];
+      $this->params= $url ? array_values($url) : [];
 
       call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
     }
