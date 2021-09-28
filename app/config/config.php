@@ -1,15 +1,11 @@
 <?php
-    //Database params
-    define('DB_HOST', 'localhost'); //Add your db host
-    define('DB_USER', 'root'); // Add your DB root
-    define('DB_PASS', ''); //Add your DB pass
-    define('DB_NAME', 'mvcframework'); //Add your DB Name
+    define('DB_HOST', 'localhost'); 
+    define('DB_USER', 'root'); 
+    define('DB_PASS', ''); 
+    define('DB_NAME', 'uochelpdesk'); 
 
-    //APPROOT
     define('APPROOT', dirname(dirname(__FILE__)));
 
-    //URLROOT (Dynamic links)
-    define('URLROOT', 'http://localhost/mvcframework');
+    define('URLROOT', 'http://localhost/UOChelpDesk');
 
-    //Sitename
-    define('SITENAME', 'MVC Framework');
+    define('SITENAME', 'UOC Help Desk');
