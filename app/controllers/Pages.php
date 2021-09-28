@@ -8,6 +8,17 @@ class Pages extends Controller {
             'title' => 'Home page'
         ];
 
-        $this->view('pages/index', $data);
+        $this->view('index', $data);
     }
+
+    public function test() {
+        $data = [
+            'title' => 'Test Page',
+             'heading' => 'MyHeading'
+        ];
+
+        $this->view('Pages/test', $data);
+    }
+
+   
 }

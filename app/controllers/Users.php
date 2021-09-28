@@ -50,15 +50,15 @@
 
           $data['password'] = password_hash($data['password'], PASSWORD_DEFAULT);
 
-          /*if($this->userModel->register($data)){
-            flash('register_success', 'You are registered and can log in');
+          if($this->userModel->register($data)){
+           // flash('register_success', 'You are registered and can log in');
             redirect('users/login');
           } else {
             die('Something went wrong');
-         */
+          }
 
         } else {
-          $this->view('users/register', $data);////////////////////////////////////
+          $this->view('users/register', $data);
         }
 
       } else {
@@ -85,7 +85,8 @@
           'email' => trim($_POST['email']),
           'password' => trim($_POST['password']),
           'email_err' => '',
-          'password_err' => '',      
+          'password_err' => '',   
+          'title' => 'Login Page'   
         ];
 
         if(empty($data['email'])){
@@ -135,6 +136,7 @@
       $_SESSION['user_email'] = $user->email;
       $_SESSION['user_name'] = $user->name;
       redirect('pages/index');
+      //header('location:../pages/index');
     }
 
     public function logout(){
