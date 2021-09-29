@@ -1,12 +1,12 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
 
-<title>HelpDesk</title>
+<title><?php echo $data['title']; ?></title>
 
 <div class="container">
       <div class="column-1 box">
         
         <div class="card">
-          <img src="public\img\default\avatar-girl.png" alt="Girl" style="width:50%; border-radius: 50%; margin-top: 1rem">
+          <img src="../public/img/default/avatar-girl.png" alt="Girl" style="width:50%; border-radius: 50%; margin-top: 1rem">
           <h2>Lavinka Guruge</h2>
           <p class="pplTitle">Faculty of Science</p>
 
@@ -31,7 +31,7 @@
 
   <ul class="cards">
     <li class="cards_item">
-      <div class="dashCard">
+      <div class="dashCard" style="background-color: #7dff9e">
         <div class="dashCard_content">
           <h2 class="dashCard_title">Student & Staff Affairs</h2>
           <p class="dashCard_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
@@ -40,7 +40,7 @@
       </div>
     </li>
     <li class="cards_item">
-       <div class="dashCard" style="background-color: #fb6161">
+       <div class="dashCard" style="background-color: #ff7d7d">
         
         <div class="dashCard_content">
           <h2 class="dashCard_title">Student Councellor</h2>
@@ -50,7 +50,7 @@
       </div>
     </li>
     <li class="cards_item">
-       <div class="dashCard">
+       <div class="dashCard" style="background-color: #839aff">
         <div class="dashCard_content">
           <h2 class="dashCard_title">Scholarships</h2>
           <p class="dashCard_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
@@ -64,6 +64,7 @@
   <h2>Popular</h2>
 
   <h2>Announcements</h2>
+</div>
 </div>
 
 <?php require APPROOT . '/views/inc/footer.php'; ?>

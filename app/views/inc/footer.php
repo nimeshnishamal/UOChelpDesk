@@ -42,29 +42,6 @@
 
 </footer>
 
-<!-- ----------------------Functions ----------------------->
-
-<script>
-function mobileNav() {
-  var n = document.getElementById("navbar");
-  if (n.className === "navbar") {
-    n.className += " responsive";
-  }
-  else {
-    n.className = "navbar";
-  }
-}
-
-function doSearch() {
-  var n = document.getElementById("navbar");
-  if (n.className === "navbar") {
-    n.className += " responsive";
-  }
-  else {
-    n.className = "navbar";
-  }
-}
-</script>
 
 </body>
 </html>

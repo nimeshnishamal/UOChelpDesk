@@ -19,6 +19,7 @@ class Pages extends Controller {
 
         $this->view('Pages/test', $data);
     }
-
    
+
+
 }

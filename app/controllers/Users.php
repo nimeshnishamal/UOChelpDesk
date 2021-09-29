@@ -5,6 +5,11 @@
       $this->userModel = $this->model('User');
     }
 
+    public function dash(){
+      $data = ['title' => 'Dashboard'];
+        $this->view('users/dash', $data);  
+    }
+
     public function register(){
       if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
@@ -130,6 +135,8 @@
         $this->view('users/login', $data);
       }
     }
+
+
 
     public function createUserSession($user){
       $_SESSION['user_id'] = $user->id;
