@@ -32,7 +32,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="navbar" id="navbar">
   <a href="#home" class="nav-icon active" style="float:left"><img src="../public/img/logo/landscape.png" width="100px"></a>
   
-  <a href="#Search" class="search" onclick="doSearch()">Search</a>
+  <!-- <a href="#Search" class="search" onclick="doSearch()">Search</a> -->
 
   <a href="#About" class="nav-label">About</a>
   <a href="#Services" class="nav-label">Services</a>
@@ -41,12 +41,43 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="search-bar">
     <form action="/action_page.php">
       <input type="text" placeholder="Search..." name="search">
-      <button type="submit"><i><img src="../public/img/icons/search.svg"></i></button>
+      <button type="submit" class="sbutton"><img src="../public/img/icons/search.svg"></button>
     </form>
   </div>
 
+
+
   <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
     <img src="../public/img/icons/hamburg.svg">
+
+     
+  </div>
   </a>
 
 </div>
+</div>
+
+
+<!-- ----------------------Functions ----------------------->
+
+<script>
+function mobileNav() {
+  var n = document.getElementById("navbar");
+  if (n.className === "navbar") {
+    n.className += " responsive";
+  }
+  else {
+    n.className = "navbar";
+  }
+}
+
+function doSearch() {
+  var n = document.getElementById("navbar");
+  if (n.className === "navbar") {
+    n.className += " responsive";
+  }
+  else {
+    n.className = "navbar";
+  }
+}
+</script>

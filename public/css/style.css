@@ -123,7 +123,11 @@ body {
 
 .pplButton{
   width: 80%;
+  height: 40px;
   font-size: 18px;
+  border: none;
+  transition-duration: 0.4s;
+
 }
 
 .pplButtonMain{
@@ -137,10 +141,13 @@ body {
 
 .pplButtonMain:hover{
   background-color: #440044;
+  cursor: pointer;
 }
 
 .pplButton:hover{
-  opacity: 0.7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
 }
 
 .card a {
@@ -264,7 +271,7 @@ pplButton:hover, a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
-    border: 1px solid;
+    /* border: 1px solid; */
 
 }
 
@@ -275,7 +282,7 @@ pplButton:hover, a:hover {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
-  border: 1px solid;
+  /* border: 1px solid; */
 
 }
 
@@ -297,11 +304,11 @@ pplButton:hover, a:hover {
 
 .dashCard_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
 }
 
 .dashCard_title {
-  color: #000000;
+  color: black;
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -369,18 +376,21 @@ pplButton:hover, a:hover {
 .navbar input[type=text] {
   padding: 6px;
   margin-top: 8px;
-  font-size: px;
+  font-size: 18px;
   border: none;
   width: 250px;
 }
 
 .sbutton {
   float: right;
+  height: 34px;
+  width: auto;
   padding: 6px 6px;
-  margin-top: 4px;
+  margin-top: 7px;
   margin-right: 16px;
-  background: #923434;
-  font-size: 10px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  font-size: 8px;
   border: none;
   cursor: pointer; 
 }
@@ -416,10 +426,24 @@ pplButton:hover, a:hover {
     display: none;
   }
 
-    .navbar.responsive .search{
+    .navbar.responsive .search-bar {
+    float: left;
     display: block;
-    }
-}
+    text-align: left;
+    margin: 0px 0px 10px 28px;
+  }
+
+    /* .navbar.responsive .search{
+    display: block;
+    } */
+
+    /* .navbar .search-bar{
+    display: block;
+    float: left;
+    margin-left: 20px;
+
+    }-/
+} 
 
   /* .navbar a, .navbar input[type=text], navbar .search-bar button {
     float: none;
