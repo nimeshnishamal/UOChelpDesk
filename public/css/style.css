@@ -50,7 +50,9 @@ html, body {
 }
 
 .submitbtn{
-    background-color: #2c2c2c; 
+    /* background-color: #2c2c2c;  */
+    background-color: #9e2121; 
+
     color: white; 
     border: 1px solid #660066;
 }
@@ -243,8 +245,6 @@ pplButton:hover, a:hover {
    color: #3f013f;	
 	
 }
-
-
 
 .mainForm .input-box label{
 	
@@ -456,12 +456,9 @@ pplButton:hover, a:hover {
   .navbar input[type=text] {
     border: 1px solid #ccc;
   } */
-
+}
 
 /*-------------------------------FOOTER--------------------------------*/
-
-
-
 
 
 .footer-distributed{
@@ -473,7 +470,7 @@ pplButton:hover, a:hover {
 	text-align: left;
 	padding: 50px 60px 40px;
 	overflow: hidden;
-    color: white;
+  color: white;
 }
 
 /* Footer left */
@@ -529,16 +526,15 @@ pplButton:hover, a:hover {
 
 .footer-distributed form input[type = text],
 .footer-distributed form textarea{
-  display: block;
-  box-sizing: border-box;
-  background-color:  #2c2c2c;
+	display: block;
+	box-sizing: border-box;
+	background-color:  #2c2c2c;
   border: none;
-  resize: none;
-  font: bold 14px sans-serif;
-
-  color:  #d1d2d2;
-  width: 400px;
-  padding: 18px;
+	resize: none;
+	font-size: 14px;
+	color:  #d1d2d2;
+	width: 400px;
+	padding: 18px;
 }
 
 /* .footer-distributed ::-webkit-input-placeholder {
@@ -565,6 +561,8 @@ pplButton:hover, a:hover {
 .footer-distributed form textarea{
 	height: 100px;
 	margin-bottom: 20px;
+      font: bold 14px sans-serif;
+
 }
 
 .footer-distributed form button{
@@ -572,17 +570,17 @@ pplButton:hover, a:hover {
 	background-color:  #33383b;
 	color: #ffffff;
 	border: 0;
-	padding: 5px 50px;
+	padding: 15px 50px;
 	font-weight: bold;
 	float: right;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px)  {
 
 	.footer-distributed {
-		font: bold 14px sans-serif;
+		font: bold 18px sans-serif;
 	}
 
 	.footer-distributed .footer-company-name{
@@ -626,3 +624,6 @@ pplButton:hover, a:hover {
 		float: none;
 	}
 } */
+
+
+
