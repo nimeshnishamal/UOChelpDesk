@@ -91,6 +91,11 @@ body {
   flex-basis: 20%; /* sets initial width to 70%*/
 }
 
+.columnEqual {
+  flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
+  flex-basis: 50%; /* sets initial width to 70%*/
+}
+
 .box {
   background-color: white;
   padding: 10px;
@@ -163,7 +168,7 @@ pplButton:hover, a:hover {
 }
 
 
-/*------------------------LOGIN-----------------------------*/
+/*------------------------LOGIN/REG------------------*/
 
 .mainForm{
 		/* position :absolute;
@@ -171,16 +176,27 @@ pplButton:hover, a:hover {
         left: 50%;
 	    transform: translate(-50%, -50%); */
     /* display: flex; */
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 		max-width: 400px;
-		min-height: 400px;
+		min-height: 400px;  
 		background: #fff;
 		box-shadow: 0 15px 50px rgba(0,0,0,0.5);
 		padding:50px;
     margin: 50px 50px 50px 50px;
 		box-sizing: border-box;	
 		border-radius:20px;
+}
+
+.narrow{
+	  justify-content: center;
+    align-items: center;
+		max-width: 400px;    
+}
+
+.mainForm .stretched{
+		max-width:80%;
+
 }
 
 .mainForm h1
@@ -259,6 +275,109 @@ pplButton:hover, a:hover {
 	 border-bottom: 2px solid #03a9f4;
 	 	
 }
+
+/*----------------STUDENT LOGIN---------------*/
+
+.stretchForm{
+		/* /* position :absolute;
+		top: 50%;
+        left: 50%;
+	    transform: translate(-50%, -50%);*/
+   display: flex;
+  /* justify-content: center; */
+  align-items: center;
+		width: 90%;
+		background: #fff;
+		box-shadow: 0 15px 50px rgba(0,0,0,0.5);
+		padding:50px;
+    margin: 50px 50px 50px 50px;
+		box-sizing: border-box;	
+		border-radius:20px;
+}
+
+.stdContainer{
+	max-width:800px;
+	height:500px;
+	width:100%;
+	background:#fff;
+	padding:30px 40px;
+	border-radius:5px;
+	
+}
+
+.stdContainer .title{
+	font-size: 25px;
+	font-weight:1000;
+	position: relative;
+	
+}
+
+.stdContainer .title::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	height: 3px;
+	width: 30px;
+	background: #9b59b6;
+
+}
+
+.stdContainer form .user-details{
+	display:flex;
+	flex-wrap:wrap;	
+	justify-content:space-between;
+	margin: 15px 5px 10px 5px;
+}
+
+form .user-details .input-box {
+	width: calc(100%/2-20px);	
+	margin-bottom: 15px 
+
+	
+}
+
+.user-details .input-box input{
+	height:40px;
+	width:100%;
+	outline:none;
+	border-radius:5px;
+	border:1px solid #ccc;
+	padding:10px;
+	font-size: 14px;
+    white-space:normal;
+    margin-top: 5px;	
+	margin-right:10px;
+	margin-left:2px;
+	border-bottom-width:2px;
+}
+
+.user-details .input-box .details{
+	font-weight:500;
+	margin-bottom:5px;
+	height:300px;
+    
+}
+
+.user-details .input-box input:focus
+.user-details .input-box input:focus {
+	
+	border-color:#9b59b6;
+	
+}
+
+.user-details .input-box select{
+	height:40px;
+	width:100%;
+	outline:none;
+	border-radius:5px;
+	border:1px solid #ccc;
+	padding:10px;
+	font-size: 14px;	
+	margin-top: 5px;
+}
+
+
 
 
 
