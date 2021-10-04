@@ -10,6 +10,11 @@
         $this->view('users/dash', $data);  
     }
 
+    public function studentlogin(){
+      $data = ['title' => 'Student Login'];
+        $this->view('users/studentlogin', $data);  
+    }
+
     public function register(){
       if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
