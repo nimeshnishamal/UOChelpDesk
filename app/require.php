@@ -9,3 +9,4 @@
 
     //Instantiate core class
     $init = new Core();
+?>
